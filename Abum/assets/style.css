@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul, li {
+    list-style: none;
+}
+.text-white{
+    color:#fff;
+}
+.text-center{
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+/* basic */
+.nav{
+    width: 100%;
+    background-color: #212529 ;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.logo-text{
+    padding: .75rem;
+}
+.d-flex{
+    display: flex;
+}
+.fa-camera{
+    font-size: 1.5rem;
+}
+.align-items-center{
+    align-items: center;
+}
+.flex-grow{
+    flex-grow: 1;
+}
+.justify-content-flex-end{
+    justify-content: flex-end;
+}
+.btn{
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer   ;
+}
+.fa-align-justify{
+    font-size: 1.75rem;
+}
+.justify-content-center{
+    justify-content: center;
+}
+/* end.nav */
+/* header */
+.header{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-heading{
+    font-size: 2.5rem;
+    font-weight: 100;
+    padding-bottom: 1rem;
+}
+.col-lg-6{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.desc{
+    font-size: 1.25rem;
+    font-weight: 100;
+    padding-bottom: 2rem;
+}
+.btn-main-cal{
+   background-color: #0d6efd;
+   border-color:#0d6efd ;
+}
+.btn-secondary{
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+/* content */
+.content{
+    background-color: #F8F9FA ;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: .25rem;
+    background-color: white;
+}
+.p-title{
+    padding-bottom: 0.25rem;
+}
+
+.col-lg-4{
+    width: 33.3%;
+}
+.pd-3{
+    padding: 1rem;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.btn-view{
+    padding: 0.5rem 0.75rem;
+    border: top left radius 0.25rem;
+    cursor: pointer;
+}
+.btn-edit{
+    padding: 0.5rem 0.75rem;
+    border-bottom-right-radius: 0.25rem;
+    cursor: pointer;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.pd-3{
+    padding: 1rem;
+}
+.line{
+    text-decoration: underline;
+}
+.footer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* reponsive */
+/* 
+@media( min-width:240px){
+    .container{
+        max-width: 540px;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+} 
+
+@media( min-width: 760px){
+    .container{
+        max-width: 800px;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+}
+
+@media(min-width:1120px){
+    .container{
+        max-width: 1140px;
+    }
+} */
